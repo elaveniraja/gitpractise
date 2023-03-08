@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-04T06:47:11Z" name="Default suite" finished-at="2023-03-04T06:47:24Z" duration-ms="13528">
+    <groups>
+    </groups>
+    <test started-at="2023-03-04T06:47:11Z" name="Default test" finished-at="2023-03-04T06:47:24Z" duration-ms="13528">
+      <class name="nykaaXpath.LuxePopup">
+        <test-method signature="skin()[pri:0, instance:nykaaXpath.LuxePopup@37e4d7bb]" started-at="2023-03-04T06:47:11Z" name="skin" finished-at="2023-03-04T06:47:24Z" duration-ms="13478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skin -->
+      </class> <!-- nykaaXpath.LuxePopup -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
