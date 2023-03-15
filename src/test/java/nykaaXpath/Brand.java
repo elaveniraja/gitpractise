@@ -23,9 +23,10 @@ public class Brand {
 		driver.manage().window().maximize();
 		//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("https://www.nykaa.com/");
-		WebDriverWait wait = new WebDriverWait(driver,20);  // explicit wait
-		WebElement brand = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[text()='brands']")));
-		brand.click();
+		driver.findElement(By.xpath("//a[text()='brands']")).click();
+		//WebDriverWait wait = new WebDriverWait(driver,20);  // explicit wait
+		//WebElement brand = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[text()='brands']")));
+		//brand.click();
 
 		 // WebElement s1 = driver.findElement(By.xpath("//a[text()='brands']"));
 		 // s1.click();

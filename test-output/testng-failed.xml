@@ -5,7 +5,7 @@
     <classes>
       <class name="atomBankModules.MortgagesRemortgages">
         <methods>
-          <include name="mormovemenu"/>
+          <include name="mortgage"/>
         </methods>
       </class> <!-- atomBankModules.MortgagesRemortgages -->
     </classes>
